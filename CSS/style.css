@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+	padding: 0; 
+	display: flex;
+  	flex-direction: column;
+  	height: 100vh;
+}
+p, label, input, button {
+	font-size: 2vmin;
+}
+a {
+	font-size: 4vmin;
+	text-decoration: none;
+	color: black;
+}
+h1, h2 {
+	font-size: 4vmin;
+	display: flex;
+}
+/* DIV GLOBAL */
+#divGlobal {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+/* FOOTER */
+footer {
+	text-align: center;
+	margin-top: auto;
+}
+/* PAGE PERSO */
+header {
+	background-color: red;
+	width: 100%;
+	height: 25vmin;
+	display: flex;
+	align-items: center;
+	background-size: cover;
+	background-position: center;
+}
+#imageDeProfil {
+	height: 20vmin;
+	width: 20vmin;
+	border-radius: 50%;
+	margin-left: 5%;
+}
+#Nom {
+	margin-left: 5%;
+}
