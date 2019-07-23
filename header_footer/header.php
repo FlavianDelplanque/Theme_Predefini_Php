@@ -4,10 +4,22 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="CSS/style.css">
 	<title><?php if (empty($title)) { echo "Page défaut"; } else { echo $title; } ?></title>
+	<style type="text/css">
+		body {
+			background-image: url(<?php echo "image/".$theme[$nombreTheme][2]; ?>);
+		}
+		* {
+			<?php if ($title=="Page Perso") {
+				echo "color:white;";
+			} 
+			else {
+				echo "color:black;";
+			}?>
+		}
+	</style>
 </head>
 <body>
-<nav id="liens_header" class="liens_header_cacher">
-	<a href="index.php">accueil</a>
-	<a href="pageperso.php">page perso</a>
+<nav>
+	<a href="index.php">Accueil</a>
 </nav>
 
